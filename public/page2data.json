@@ -1,0 +1,31 @@
+[{
+    "id": 1,
+    "department": "Jewelry"
+  }, {
+    "id": 2,
+    "department": "Tools"
+  }, {
+    "id": 3,
+    "department": "Clothing"
+  }, {
+    "id": 4,
+    "department": "Music"
+  }, {
+    "id": 5,
+    "department": "Beauty"
+  }, {
+    "id": 6,
+    "department": "Baby"
+  }, {
+    "id": 7,
+    "department": "Tools"
+  }, {
+    "id": 8,
+    "department": "Kids"
+  }, {
+    "id": 9,
+    "department": "Baby"
+  }, {
+    "id": 10,
+    "department": "Automotive"
+  }]

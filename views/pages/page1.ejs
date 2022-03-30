@@ -1,0 +1,22 @@
+<%- include("../partials/header") %>
+
+
+    <h1>Address book</h1>
+    <table class="striped">
+        <thead>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>email</th>
+        </thead>
+            <% for(var i = 0; i < data.length ; i++) { %>
+                <tr>
+                    <td><%= data[i].first_name %></td>
+                    <td><%= data[i].last_name %></td>
+                    <td><%= data[i].email %></td>
+                </tr>
+
+            <% }; %>
+    </table>
+</body>
+
+<%- include("../partials/footer") %>

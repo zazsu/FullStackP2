@@ -1,0 +1,13 @@
+<%- include("../partials/header") %>
+
+    <h1>Shopping list</h1>
+    <table class="striped">
+            <% for(var i = 0; i < data.length ; i++) { %>
+                <tr>
+                    <td><%= data[i].product %></td>
+                </tr>
+
+            <% }; %>
+    </table>
+
+<%- include("../partials/footer") %>

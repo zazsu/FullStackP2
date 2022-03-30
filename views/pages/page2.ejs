@@ -1,0 +1,18 @@
+<%- include("../partials/header") %>
+
+    <h1>Department store</h1>
+    <table class="striped">
+        <thead>
+            <th>ID</th>
+            <th>Department</th>
+        </thead>
+            <% for(var i = 0; i < data.length ; i++) { %>
+                <tr>
+                    <td><%= data[i].id%></td>
+                    <td><%= data[i].department %></td>
+                </tr>
+
+            <% }; %>
+    </table>
+
+<%- include("../partials/footer") %>
